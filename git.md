@@ -122,7 +122,13 @@ rm -r project_test
 
 ## Pushing updates
 
-*In this order*
+Does it ask for a key?
+
+**Step 0 -- SSH authentication**
+
+```
+ssh -T git@github.com
+```
 
 **Step 1 -- Add new files and updates**
 
