@@ -7,6 +7,36 @@ Anika Paulson
 2026-07-30
 
 
+## Installing git
+
+I don't know how to use the desktop app because it doesn't work on linux (to the best of my knowledge), so these instructions only include command line methods. I have not tested Mac.
+
+1. [Install](https://git-scm.com/install/windows)
+
+```
+# Windows
+  # you need winget, I'm not sure how to install that
+  winget install --id Git.Git -e --source winget
+
+# Linux - Debian/Ubuntu
+  apt-get install git
+
+# Mac?
+  # install homebrew 
+  brew install git
+  # or macports
+  sudo port install git
+
+# Check
+git --version
+```
+
+2. [Configuring](https://www.geeksforgeeks.org/git/using-git-on-commandline/)
+
+```
+git config --global user.name "anika-paulson"
+git config --global user.email "paul0805@umn.edu"
+```
 
 ## Creating a respository from a local directory
 
