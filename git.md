@@ -1,8 +1,10 @@
 # How to git
 
-This is a guide for me and others to review how to use git.
+This is a my guide to review how to use git, cause I always forget the details.
 
--- Anika Paulson
+Happy hunting,
+Anika Paulson
+2026-07-30
 
 
 
