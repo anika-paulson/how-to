@@ -160,7 +160,7 @@ git push
 
 ## Pulling updates
 
-If you've (or anyone has) changed it elsewhere, you need to pull updates
+If you've (or anyone has) changed it elsewhere, you need to [pull updates](https://github.com/git-guides/git-pull)
 
 ```
 cd /home/gus/Documents/how-to
