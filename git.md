@@ -1,6 +1,6 @@
 # How to git
 
-This is a my guide to review how to use git, cause I always forget the details.
+This is a my guide to review how to use git, cause I always forget the details. Currently I only know how to do it on linux... have not tested on windows or mac.
 
 Happy hunting,
 Anika Paulson
