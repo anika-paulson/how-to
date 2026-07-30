@@ -156,3 +156,13 @@ git commit -am 'update'
 git push
 ```
 
+
+
+## Pulling updates
+
+If you've (or anyone has) changed it elsewhere, you need to pull updates
+
+```
+cd /home/gus/Documents/how-to
+git pull
+```
