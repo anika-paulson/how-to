@@ -7,7 +7,7 @@ Anika Paulson
 2026-07-30
 
 
-## Installing git
+## Installing and configuring git
 
 I don't know how to use the desktop app because it doesn't work on linux (to the best of my knowledge), so these instructions only include command line methods. I have not tested Mac.
 
@@ -38,10 +38,22 @@ git config --global user.name "anika-paulson"
 git config --global user.email "paul0805@umn.edu"
 ```
 
+3. Maybe just for windows, configure the R drive as safe
+
+```
+# example
+git config --global --add safe.directory %(prefix)///rds01.storage.umn.edu/cla_psyc_grissom_labshare/Projects/Anika/data/extincts
+# or edit the config directly
+# https://stackoverflow.com/questions/11868447/how-can-i-remove-an-entry-in-global-configuration-with-git-config
+git config --global --edit
+# to save on windows :wq
+# https://stackoverflow.com/questions/13239368/how-to-close-git-commit-editor
+```
+
+
 ## Creating a respository from a local directory
 
 I've used [this site](https://kamileyagci.github.io/GitHubRepo_from_Local/) to help me understand how to create a git repository from a local directory. I'm just synthesizing that info here.
-
 
 Consider this folder, '/home/gus/Documents/how-to/'
 
