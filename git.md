@@ -47,17 +47,18 @@ git config --global user.email "paul0805@umn.edu"
 ```
 
 <details>
-  <summary> 3. Maybe just for windows, configure the R drive as safe</summary>
+  <summary> 3. Maybe just for windows, configure the R drive as safe </summary>
   
-  ```
-  # example
-  git config --global --add safe.directory %(prefix)///rds01.storage.umn.edu/cla_psyc_grissom_labshare/Projects/Anika/data/extincts
-  # or edit the config directly
-  # https://stackoverflow.com/questions/11868447/how-can-i-remove-an-entry-in-global-configuration-with-git-config
-  git config --global --edit
-  # to save on windows :wq
-  # https://stackoverflow.com/questions/13239368/how-to-close-git-commit-editor
-  ```
+```
+# example
+git config --global --add safe.directory %(prefix)///rds01.storage.umn.edu/cla_psyc_grissom_labshare/Projects/Anika/data/extincts
+# or edit the config directly
+# https://stackoverflow.com/questions/11868447/how-can-i-remove-an-entry-in-global-configuration-with-git-config
+git config --global --edit
+# to save on windows :wq
+# https://stackoverflow.com/questions/13239368/how-to-close-git-commit-editor
+```
+
 </details>
 
 <details>
@@ -83,16 +84,12 @@ cat ~/.ssh/id_ed25519.pub
 ```
 Open Account settings on github.com. Under Access, find SSH and GPG keys. Add/New SSH key. Choose a descriptive name, paste output into 'Key'.
 
-I (personally, I'm not sure about you) need an ssh key to authenticate, maybe because I don't have the github app? (os discrimination)
-
-On github, in your settings, under SSH and GPG keys, you can create an SSH key for your computer. Instructions are clear I think, then you can use it to run git commands like push in your command window.
-
 *To reconnect:*
-
 ```
 ssh -T git@github.com
 # enter passcode
 ```
+
 </details>
 
 </details>
