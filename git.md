@@ -186,6 +186,7 @@ ssh -T git@github.com
 **Step 1 -- Add new files and updates**
 
 ```
+cd /home/gus/Documents/how-to
 git add -A
 ```
 
