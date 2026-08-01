@@ -65,31 +65,36 @@ git config --global --edit
   <summary>3. Maybe just for Linux, making an authentication key</summary>
 
 *[Generate key](https://docs.github.com/en/authentication/connecting-to-github-with-ssh)*
+
 ```
 ssh-keygen -t ed25519 -C "paul0805@umn.edu"
 # "Enter a file in which to save the key", press enter
 # enter a passphrase
 ```
+
 *Start agent and add key*
+
 ```
 eval "$(ssh-agent -s)" # start SSH agent in background
 ssh-add ~/.ssh/id_ed25519 # add key to agent;
 # change file name if you did not choose default
 ```
+
 *[Add new ssh key to your account](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/adding-a-new-ssh-key-to-your-github-account)
 
 ```
 cat ~/.ssh/id_ed25519.pub
 # copy terminal output
 ```
+
 Open Account settings on github.com. Under Access, find SSH and GPG keys. Add/New SSH key. Choose a descriptive name, paste output into 'Key'.
 
 *To reconnect:*
+
 ```
 ssh -T git@github.com
 # enter passcode
 ```
-
 </details>
 
 </details>
