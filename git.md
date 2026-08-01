@@ -9,6 +9,9 @@ Anika Paulson
 
 ## Installing and configuring git
 
+<details>
+  <summary>Just the first time:</summary>
+
 I don't know how to use the desktop app because it doesn't work on linux (to the best of my knowledge), so these instructions only include command line methods. I have not tested Mac.
 
 1. [Install](https://git-scm.com/install/windows)
@@ -49,9 +52,12 @@ git config --global --edit
 # to save on windows :wq
 # https://stackoverflow.com/questions/13239368/how-to-close-git-commit-editor
 ```
+</details>
 
+## Creating a repository from a local directory
 
-## Creating a respository from a local directory
+<details>
+<summary>At beginning of each project:</summary>
 
 I've used [this site](https://kamileyagci.github.io/GitHubRepo_from_Local/) to help me understand how to create a git repository from a local directory. I'm just synthesizing that info here.
 
@@ -143,10 +149,13 @@ On github, in your settings, under SSH and GPG keys, you can create an SSH key f
 ```
 ssh -T git@github.com
 ```
-
+</details>
 
 
 ## Deleting a repository
+
+<details>
+<summary>For me, more often than I should:</summary>
 
 **To delete the remote and keep the local directory**
 
@@ -162,7 +171,7 @@ rm -r project_test
 
 **Delete the Github repository in the settings menu**
 
-
+</details>
 
 ## Pushing updates
 
