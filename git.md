@@ -80,7 +80,7 @@ ssh-add ~/.ssh/id_ed25519 # add key to agent;
 # change file name if you did not choose default
 ```
 
-*[Add new ssh key to your account](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/adding-a-new-ssh-key-to-your-github-account)
+*[Add new ssh key to your account](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/adding-a-new-ssh-key-to-your-github-account)*
 
 ```
 cat ~/.ssh/id_ed25519.pub
