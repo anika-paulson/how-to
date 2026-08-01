@@ -22,7 +22,12 @@ I don't know how to use the desktop app because it doesn't work on linux (to the
   winget install --id Git.Git -e --source winget
 
 # Linux - Debian/Ubuntu
+  sudo apt update
+  sudo apt upgrade
+
   apt-get install git
+  or
+  sudo apt install git-all
 
 # Mac?
   # install homebrew 
