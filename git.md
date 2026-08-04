@@ -267,7 +267,7 @@ git pull
   <summary>For your other computer. Or someone else's or, you know.</summary>
 
 ```
-git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY
+git clone git@github.com:anika-paulson/how-to.git
 ```
 
 Remember: pull and push, like the moon
