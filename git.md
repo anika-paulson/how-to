@@ -250,8 +250,10 @@ git push
 ## Pulling updates
 
 <details>
-  <summary>If you've (or anyone has) changed it elsewhere, you need to [pull updates](https://github.com/git-guides/git-pull).</summary>
-
+  <summary>Every damn time.</summary>
+  
+If you've (or anyone has) changed it elsewhere, you need to [pull updates](https://github.com/git-guides/git-pull).
+  
 ```
 cd /home/gus/Documents/how-to
 git pull
