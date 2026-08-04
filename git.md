@@ -10,7 +10,7 @@ Anika Paulson
 ## Installing and configuring git
 
 <details>
-  <summary>Just the first time:</summary>
+  <summary>Once per computer. Or so.</summary>
 
 I don't know how to use the desktop app because it doesn't work on linux (to the best of my knowledge), so these instructions only include command line methods. I have not tested Mac.
 
@@ -102,7 +102,7 @@ ssh -T git@github.com
 ## Creating a repository from a local directory
 
 <details>
-<summary>At beginning of each project:</summary>
+<summary>At beginning of each project.</summary>
 
 I've used [this site](https://kamileyagci.github.io/GitHubRepo_from_Local/) to help me understand how to create a git repository from a local directory. I'm just synthesizing that info here.
 
@@ -185,7 +185,7 @@ git push -u origin main
 ## Deleting a repository
 
 <details>
-<summary>For me, more often than I should:</summary>
+<summary>For me, more often than I should.</summary>
 
 **To delete the remote and keep the local directory**
 
@@ -199,11 +199,14 @@ rm -r .git
 rm -r project_test
 ```
 
-**Delete the Github repository in the settings menu**
+**Delete the GitHub repository in the settings menu**
 
 </details>
 
 ## Pushing updates
+
+<details>
+  <summary>Every time damn it.</summary>
 
 Does it ask for a key?
 
@@ -239,14 +242,32 @@ git commit -am 'update'
 ```
 git push
 ```
+</details>
+
 
 
 
 ## Pulling updates
 
-If you've (or anyone has) changed it elsewhere, you need to [pull updates](https://github.com/git-guides/git-pull)
+<details>
+  <summary>If you've (or anyone has) changed it elsewhere, you need to [pull updates](https://github.com/git-guides/git-pull).</summary>
 
 ```
 cd /home/gus/Documents/how-to
 git pull
 ```
+
+</details>
+
+## Cloning
+
+<details>
+  <summary>For your other computer. Or someone else's or, you know.</summary>
+
+```
+git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY
+```
+
+Remember: pull and push, like the moon
+
+</details>
