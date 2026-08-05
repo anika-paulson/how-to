@@ -18,45 +18,53 @@ ssh paul0805@agate.msi.umn.edu
 **Running a script**
 
 1. Make a scratch directory:
+
    ```
    mkdir -p /scratch.global/paul0805/
    ```
 
-2. Copy data
-  NOTE: create empty folder HMM_output in your local directory first
-  - In normal command line:
+3. Copy data
+
+   NOTE: create empty folder HMM_output in your local directory first
+   In normal command line:
     ```
     scp -r /home/gus/Documents/VP_GAD1_DREADDs_first/ paul0805@agate.msi.umn.edu:/scratch.global/paul0805/
     ```
 
-3. Log into SSH
+4. Log into SSH
+
    ```
    ssh paul0805@agate.msi.umn.edu
    # enter password
    # do duo
    ```
 
-4. Enter output folder
+6. Enter output folder
+
   ```
   cd /scratch.global/paul0805/VP_GAD1_DREADDs_first/HMM_output/pre-surgery/
   ```
 
 5. run
+
   ```
   sbatch /scratch.global/paul0805/VP_GAD1_DREADDs_first/HMM_run/launcher_runHMM_danaSW_v3.slurm
   ```
 
 6. check
+
    ```
    squeue --format="%.18i %.9P %.30j %.8u %.8T %.10M %.9l %.6D %R" --me
    ```
 
 8. Get the data back
+
   ```
   scp -r paul0805@agate.msi.umn.edu:/scratch.global/paul0805/VP_GAD1_DREADDs_first/HMM_output/pre-surgery/ /home/gus/Documents/VP_GAD1_DREADDs_first/
   ```
 
-If you need a reset, delete the scratch folder:
+*Bonus:* If you need a reset, delete the scratch folder:
+
   ```
   cd /scratch.global/paul0805
   rm -rf directoryname
