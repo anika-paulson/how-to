@@ -1,4 +1,4 @@
-## TUsing MSI (Minnesota Supercomputer Institute)
+## Using MSI (Minnesota Supercomputer Institute)
 
 This is how to do it with command line from a local directory, the Grissom lab Wiki has info on using RClone and Google Drive. But fuck google, ya know?
 
