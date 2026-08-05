@@ -41,6 +41,7 @@ ssh paul0805@agate.msi.umn.edu
    ```
 
 5. Enter output folder
+   
    ```
    cd /scratch.global/paul0805/VP_GAD1_DREADDs_first/HMM_output/pre-surgery/
    ```
@@ -51,23 +52,23 @@ ssh paul0805@agate.msi.umn.edu
    sbatch /scratch.global/paul0805/VP_GAD1_DREADDs_first/HMM_run/launcher_runHMM_danaSW_v3.slurm
    ```
 
-8. check
+7. check
    
    ```
    squeue --format="%.18i %.9P %.30j %.8u %.8T %.10M %.9l %.6D %R" --me
    ```
 
-10. Get the data back
-
-  ```
-  scp -r paul0805@agate.msi.umn.edu:/scratch.global/paul0805/VP_GAD1_DREADDs_first/HMM_output/pre-surgery/ /home/gus/Documents/VP_GAD1_DREADDs_first/
-  ```
+8. Get the data back
+    
+    ```
+    scp -r paul0805@agate.msi.umn.edu:/scratch.global/paul0805/VP_GAD1_DREADDs_first/HMM_output/pre-surgery/ /home/gus/Documents/VP_GAD1_DREADDs_first/
+    ```
 
 *Bonus:* If you need a reset, delete the scratch folder:
 
-  ```
-  cd /scratch.global/paul0805
-  rm -rf directoryname
-  ```
+```
+cd /scratch.global/paul0805
+rm -rf directoryname
+```
 
 
