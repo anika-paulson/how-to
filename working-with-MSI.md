@@ -26,8 +26,8 @@ ssh paul0805@agate.msi.umn.edu
 3. Copy data
 
    NOTE: create empty folder HMM_output in your local directory first
-   In normal command line:
     ```
+    # In normal command line
     scp -r /home/gus/Documents/VP_GAD1_DREADDs_first/ paul0805@agate.msi.umn.edu:/scratch.global/paul0805/
     ```
 
