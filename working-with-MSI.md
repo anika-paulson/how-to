@@ -26,6 +26,7 @@ ssh paul0805@agate.msi.umn.edu
 3. Copy data
 
    NOTE: create empty folder HMM_output in your local directory first
+   
     ```
     # In normal command line
     scp -r /home/gus/Documents/VP_GAD1_DREADDs_first/ paul0805@agate.msi.umn.edu:/scratch.global/paul0805/
@@ -39,25 +40,24 @@ ssh paul0805@agate.msi.umn.edu
    # do duo
    ```
 
-6. Enter output folder
+5. Enter output folder
+   ```
+   cd /scratch.global/paul0805/VP_GAD1_DREADDs_first/HMM_output/pre-surgery/
+   ```
 
-  ```
-  cd /scratch.global/paul0805/VP_GAD1_DREADDs_first/HMM_output/pre-surgery/
-  ```
+6. run
+   
+   ```
+   sbatch /scratch.global/paul0805/VP_GAD1_DREADDs_first/HMM_run/launcher_runHMM_danaSW_v3.slurm
+   ```
 
-5. run
-
-  ```
-  sbatch /scratch.global/paul0805/VP_GAD1_DREADDs_first/HMM_run/launcher_runHMM_danaSW_v3.slurm
-  ```
-
-6. check
-
+8. check
+   
    ```
    squeue --format="%.18i %.9P %.30j %.8u %.8T %.10M %.9l %.6D %R" --me
    ```
 
-8. Get the data back
+10. Get the data back
 
   ```
   scp -r paul0805@agate.msi.umn.edu:/scratch.global/paul0805/VP_GAD1_DREADDs_first/HMM_output/pre-surgery/ /home/gus/Documents/VP_GAD1_DREADDs_first/
