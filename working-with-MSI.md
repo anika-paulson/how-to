@@ -1,5 +1,7 @@
 ## Using MSI (Minnesota Supercomputer Institute)
 
+[You have to be connected to Eduroam or on UMN VPN.](https://it.umn.edu/services-technologies/virtual-private-network-vpn)
+
 This is how to do it with command line from a local directory, the Grissom lab Wiki has info on using RClone and Google Drive. But fuck google, ya know?
 
 You need to get into and out MSI. I tend to log in and out maybe two dozen times or so each use.
