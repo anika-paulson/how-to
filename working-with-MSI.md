@@ -31,7 +31,8 @@ ssh paul0805@agate.msi.umn.edu
    
     ```
     # In normal command line
-    scp -r /home/gus/Documents/VP_GAD1_DREADDs_first/ paul0805@agate.msi.umn.edu:/scratch.global/paul0805/
+   scp -r /home/gus/Documents/grissom-lab/VP_GAD1_DREADDs_first/bandit_processed/post-surgery paul0805@agate.msi.umn.edu:/scratch.global/paul0805/bandit_processed
+   scp -r /home/gus/Documents/grissom-lab/VP_GAD1_DREADDs_first/HMM_run paul0805@agate.msi.umn.edu:/scratch.global/paul0805/HMM_run
     ```
 
 4. Log into SSH
@@ -51,7 +52,7 @@ ssh paul0805@agate.msi.umn.edu
 6. run
    
    ```
-   sbatch /scratch.global/paul0805/VP_GAD1_DREADDs_first/HMM_run/launcher_runHMM_danaSW_v3.slurm
+   sbatch /scratch.global/paul0805/HMM_run/launcher_runHMM_danaSW_v3.slurm
    ```
 
 7. check
