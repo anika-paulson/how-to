@@ -63,7 +63,7 @@ ssh paul0805@agate.msi.umn.edu
 8. Get the data back
     
     ```
-    scp -r paul0805@agate.msi.umn.edu:/scratch.global/paul0805/VP_GAD1_DREADDs_first/HMM_output/pre-surgery/ /home/gus/Documents/VP_GAD1_DREADDs_first/
+   scp -r paul0805@agate.msi.umn.edu:/scratch.global/paul0805/HMM_output/post-surgery/ /home/gus/Documents/grissom-lab/VP_GAD1_DREADDs_first/HMM_output/
     ```
 
 *Bonus:* If you need a reset, delete the scratch folder:
