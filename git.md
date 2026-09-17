@@ -181,6 +181,18 @@ git push -u origin main
 
 </details>
 
+## Cloning
+
+<details>
+  <summary>For your other computer. Or someone else's or, you know.</summary>
+
+```
+git clone git@github.com:anika-paulson/how-to.git
+```
+
+Remember: pull and push, like the moon
+
+</details>
 
 ## Deleting a repository
 
@@ -261,15 +273,3 @@ git pull
 
 </details>
 
-## Cloning
-
-<details>
-  <summary>For your other computer. Or someone else's or, you know.</summary>
-
-```
-git clone git@github.com:anika-paulson/how-to.git
-```
-
-Remember: pull and push, like the moon
-
-</details>
