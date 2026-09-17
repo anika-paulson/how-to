@@ -194,27 +194,6 @@ Remember: pull and push, like the moon
 
 </details>
 
-## Deleting a repository
-
-<details>
-<summary>For me, more often than I should.</summary>
-
-**To delete the remote and keep the local directory**
-
-```
-rm -r .git
-```
-
-**To delete both**
-
-```
-rm -r project_test
-```
-
-**Delete the GitHub repository in the settings menu**
-
-</details>
-
 ## Pushing updates
 
 <details>
@@ -272,4 +251,27 @@ git pull
 ```
 
 </details>
+
+## Deleting a repository
+
+<details>
+<summary>For me, more often than I should.</summary>
+
+**To delete the remote and keep the local directory**
+
+```
+rm -r .git
+```
+
+**To delete both**
+
+```
+rm -r project_test
+```
+
+**Delete the GitHub repository in the settings menu**
+
+</details>
+
+
 
