@@ -181,7 +181,7 @@ git push -u origin main
 
 </details>
 
-## Cloning
+## Cloning an existing git repository
 
 <details>
   <summary>For your other computer. Or someone else's or, you know.</summary>
